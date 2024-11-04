@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linktree</title>
+    <link rel="shortcut icon" type="x-icon" href="./images/page8img.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+
+</head>
+<body>
+    <div class="main">
+
+        <div class="top"></div>
+        <div class="page1">
+            <div class="nav">
+
+                <div class="nav-1">
+                 <h2>Linktree</h2> 
+                 <img src="data:image/png;base64,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" alt="" srcset="">  
+                </div>
+                <div class="nav-2">
+                    <h4>Templates</h4>
+                    <h4>Marketplace</h4>
+                    <h4>Discover</h4>
+                    <h4>Pricing</h4>
+                    <h4>Learn</h4>
+                </div>
+                <div class="nav-3">
+                    <h4><a href="#">Log in</a></h4>
+                    <h4><a href="#">Sign up free</a></h4>
+                </div>
+
+            </div>
+            <div class="center">
+                <div class="center-left">
+                    <h1>Everything you are. <br> In one, simple link in <br>bio.</h1>
+                    <h4>Join 50M+ people using Linktree for their link in bio. One link to help you share <br>everything you create, curate and sell from your Instagram, TikTok, Twitter, YouTube <br>and other social media profiles.</h4>
+                    <button class="button button1">Linktr.ee/</button>
+                    <button class="button button2">Claim your Linktree</button>
+                </div>
+                <div class="center-right">
+                   
+                </div>
+            </div>
+        
+
+        </div>
+
+
+        <div class="page2">
+            <div class="page2-center">
+
+                <div class="page2-left">
+                    <div class="card">
+                        <img data-scroll data-scroll-speed= "1"  class="image img1" src="images/page2-1.png" alt="">
+                        <img data-scroll data-scroll-speed= "1"  class="image img2" src="images/page2-2.png" alt="">
+                        <img data-scroll data-scroll-speed= "1"  class="image img3" src="images/page2-3.png" alt="">
+                        <img data-scroll data-scroll-speed= "1"  class="image img4" src="images/page2-4.png" alt="">
+                        <img data-scroll data-scroll-speed= "1" class="image img5" src="images/page2-5.png" alt="">
+                        <img data-scroll data-scroll-speed= "1" class="image img6" src="images/page2-6.png" alt="">
+                    </div>
+                </div>
+                <div class="page2-right">
+                    <h1>Create and customize <br> your Linktree in <br> minutes</h1>
+                    <h4>Connect your TikTok, Instagram, Twitter, website, store, videos, music, podcast,<br> events and more. It all comes together in a link in bio landing page designed to<br> convert.</h4>
+                    <button class="button button2">Get started fro free</button>
+    
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="page3">
+
+            <div class="page3-center">
+                <div class="page3-left">
+                    <h1>Share your Linktree <br>from your Instagram,<br> TikTok, Twitter and<br> other bios</h1>
+                    <h4>Add your unique Linktree URL to all the platforms and places you find your <br> audience. Then use your QR code to drive your offline traffic online.</h4>
+                    <button class="button button2">Claim your Linktree</button>
+                </div>
+                <div class="page3-right">
+                    <div class="page3-box">
+                        <button  class="button button2"><img class="page3-logo" src="data:image/png;base64,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" alt="" srcset="">linktr.ee/shopavery</button>
+                        <img  data-scroll data-scroll-speed= "1" class="image1" src="images/page3-1.jpg" alt="">
+                        <img data-scroll data-scroll-speed= "1"  class="image2" src="images/page3-3.jpg" alt="">
+                        <img data-scroll data-scroll-speed= "1"  class="image3" src="images/page2-1.png" alt="">
+                        <img data-scroll data-scroll-speed= "1"  class="image4" src="images/page2-2.png" alt="">
+                        <img data-scroll data-scroll-speed= "1"  class="image5" src="images/page2-5.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="page4">
+            <div class="page4-center">
+                
+                <div class="page4-left">
+
+                    <div class="flip-box box1">
+                        <div class="flip-box-inner">
+                            <img class="flip-box-front" src="images/page4-1.webp" alt="">
+                            <img class="flip-box-back" src="images/page4-2.webp" alt="">
+
+                        </div>
+                    </div>
+                    <div class="flip-box box2">
+                        <div class="flip-box-inner">
+                            <img class="flip-box-front" src="images/page4-5.webp" alt="">
+                            <img class="flip-box-back" src="images/page3-3.jpg" alt="">
+
+                        </div>
+                    </div>
+                    <div class="flip-box box3">
+                        <div class="flip-box-inner">
+                            <img class="flip-box-front" src="images/page4-8.webp" alt="">
+                            <img class="flip-box-back" src="images/page4-6.webp" alt="">
+                            
+                        </div>
+                    </div>
+                    <div class="flip-box box4">
+                        <div class="flip-box-inner">
+                            <img class="flip-box-front" src="images/page4-3.webp" alt="">
+                            <img class="flip-box-back" src="images/page3-1.jpg" alt="">
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="page4-right">
+                    <h1>Analyze your <br> audience and keep <br> your followers <br> engaged</h1>
+                    <h4>Track your engagement over time, monitor revenue and learn what’s converting <br> your audience. Make informed updates on the fly to keep them coming back.</h4>
+                    <button class="button button2">Get started fro free</button>
+    
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="page5">
+            <h1>
+                The only link in bio trusted by 50M+
+                <div class="words">
+                    <span>
+                        musician <br />
+                        creators<br />
+                        athelets<br />
+                        streamers<br />
+                    </span>
+                </div>
+            </h1> 
+            <div class="page5-bottom">
+
+                <div class="bottom-image">
+                    <img class="slide one" src="images/page5-1.avif" alt="">                 
+                    <img class="slide two" src="images/page5-2.avif" alt="">
+                    <img class="slide three" src="images/page5-3.avif" alt="">
+                    <img class="slide four" src="images/page5-4.avif" alt="">
+                    <img class="slide five" src="images/page5-5.avif" alt="">
+                    <img class="slide six" src="images/page5-6.avif" alt="">
+                    <img class="slide seven" src="images/page5-7.avif" alt="">
+                </div>
+                <div class="bottom-image">
+                    <img class="slide one" src="images/page5-1.avif" alt="">                 
+                    <img class="slide two" src="images/page5-2.avif" alt="">
+                    <img class="slide three" src="images/page5-3.avif" alt="">
+                    <img class="slide four" src="images/page5-4.avif" alt="">
+                    <img class="slide five" src="images/page5-5.avif" alt="">
+                    <img class="slide six" src="images/page5-6.avif" alt="">
+                    <img class="slide seven" src="images/page5-7.avif" alt="">
+                </div>
+                
+            </div>
+        </div>
+
+
+        <div class="page6">
+            <div class="page6-box">
+                <img class="allimg one" src="images/page3-3.jpg" alt="">
+                <img class="allimg two" src="images/page4-5.webp" alt="">
+                <img class="allimg three" src="images/page2-5.png" alt="">
+                <img class="allimg four" src="images/page4-4.webp" alt="">
+                <img class="allimg five" src="images/page4-8.webp" alt="">
+                
+                <div class="content">
+                    <h1>Share your content in limitless <br> ways on your Linktree.</h1>
+    
+                </div>
+            </div>
+        </div>
+
+
+        <div class="page7">
+            <div class="headline">
+                <h1>Got questions?</h1>
+
+            </div>
+            <ul class="accordion">
+
+
+
+                <li>
+                    <input type="radio" name="accordion" id="first" checked>
+                    <label for="first">Why do I need a link in bio tool?</label>
+                    <div class="content">
+                        <p>
+                            Right now, every time you’ve got something new to share, you have to go to every single one of your channels to change the link in each of your bios. It’s time-consuming and complicated – making it so  much harder to keep everything up to date.
+                            <br>
+                            <br>
+                           A link in bio tool means you never have to compromise, or remove one link from your bio so you can add another. You can keep everything you want to share online in one link. When you’ve got a change, you only ever have to make it once.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="second">
+                    <label for="second">Is Linktree the original link in bio tool?</label>
+                    <div class="content">
+                        <p>
+                            Right now, every time you’ve got something new to share, you have to go to every single one of your channels to change the link in each of your bios. It’s time-consuming and complicated – making it so  much harder to keep everything up to date.
+                            <br>
+                            <br>
+                           A link in bio tool means you never have to compromise, or remove one link from your bio so you can add another. You can keep everything you want to share online in one link. When you’ve got a change, you only ever have to make it once.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="third">
+                    <label for="third">Can you get paid and sell things from a Linktree?</label>
+                    <div class="content">
+                        <p>
+                            Right now, every time you’ve got something new to share, you have to go to every single one of your channels to change the link in each of your bios. It’s time-consuming and complicated – making it so  much harder to keep everything up to date.
+                            <br>
+                            <br>
+                           A link in bio tool means you never have to compromise, or remove one link from your bio so you can add another. You can keep everything you want to share online in one link. When you’ve got a change, you only ever have to make it once.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="four">
+                    <label for="four">Where can I download the app?</label>
+                    <div class="content">
+                        <p>
+                            Right now, every time you’ve got something new to share, you have to go to every single one of your channels to change the link in each of your bios. It’s time-consuming and complicated – making it so  much harder to keep everything up to date.
+                            <br>
+                            <br>
+                           A link in bio tool means you never have to compromise, or remove one link from your bio so you can add another. You can keep everything you want to share online in one link. When you’ve got a change, you only ever have to make it once.
+                        </p>
+                    </div>
+                </li>
+
+
+
+            </ul>
+        </div>
+        
+        <div class="page8">
+
+          <button data-scroll data-scroll-speed= "1.7" class="button button2">
+           <h1> linktree</h1><img  src="images/page8img.png" alt=""></button>
+           <img src="images/page8last.png" alt="">
+        </div>
+
+       
+
+    </div>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
